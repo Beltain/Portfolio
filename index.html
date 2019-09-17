@@ -1,0 +1,435 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <script src="js/jquery.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="animate.css">
+    <!-- Anything Slider -->
+    <link rel="stylesheet" href="css/anythingslider.css">
+    <script src="js/jquery.anythingslider.js"></script>
+    <!-- Define slider dimensions here -->
+    <style>
+        #slider {
+            width: 500px;
+            height: 500px;
+        }
+
+        #slider2 {
+            width: 500px;
+            height: 500px;
+        }
+
+        #slider3 {
+            padding-top: 30px;
+            width: 500px;
+            height: 500px;
+        }
+
+        #slider4 {
+            width: 500px;
+            height: 500px;
+        }
+
+        #slider4 video {
+            width: 500px;
+            height: 500px;
+        }
+    </style>
+
+    <!-- AnythingSlider initialization -->
+    <script>
+        // DOM Ready
+        $(function () {
+            $('#slider').anythingSlider({
+                buildArrows: false,      // If true, builds the forwards and backwards buttons
+                buildNavigation: false,      // If true, builds a list of anchor links to link to each panel
+                buildStartStop: false,      // If true, builds the start/stop button
+
+            });
+        });
+        // DOM Ready
+        $(function () {
+            $('#slider2').anythingSlider({
+                buildArrows: false,      // If true, builds the forwards and backwards buttons
+                buildNavigation: false,      // If true, builds a list of anchor links to link to each panel
+                buildStartStop: false,      // If true, builds the start/stop button
+
+            });
+        });
+        // DOM Ready
+        $(function () {
+            $('#slider3').anythingSlider({
+                buildArrows: false,      // If true, builds the forwards and backwards buttons
+                buildNavigation: false,      // If true, builds a list of anchor links to link to each panel
+                buildStartStop: false,      // If true, builds the start/stop button
+
+            });
+        });
+        // DOM Ready
+        $(function () {
+            $('#slider4').anythingSlider({
+                buildArrows: false,      // If true, builds the forwards and backwards buttons
+                buildNavigation: false,      // If true, builds a list of anchor links to link to each panel
+                buildStartStop: false,      // If true, builds the start/stop button
+
+            });
+        });
+    </script>
+
+
+    <title>Beltain Jordaan Portfolio</title>
+</head>
+
+<body>
+<!--Start page-->
+<div class="wrapper" style="height: 97vh;">
+    <div class="title animated zoomIn" style="padding-top: 29vh; ">Beltain<br>Jordaan.</div>
+    <p class="subtitle" style="color: black">animator - 3d generalist - programmer</p>
+</div>
+<a class="btmBtn" href="#begin">View portfolio</a>
+
+<div class="wrapper fade" id="begin">
+    <div class="area ">
+        <div class="row">
+            <div class="column">
+                <div class="container left" style="width: margin: 0 auto">
+                    <ul id="slider">
+                        <li>
+                            <div class="resp-container">
+                                <iframe class="resp-iframe"
+                                        src="https://sketchfab.com/models/bf19a36cde0c447c8de4a041da122815/embed"></iframe>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="resp-container">
+                                <iframe class="resp-iframe"
+                                        src="https://sketchfab.com/models/12de2c54a23d455585b4c9c4c23373e8/embed"></iframe>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="resp-container">
+                                <iframe class="resp-iframe"
+                                        src="https://sketchfab.com/models/f1204d598f4940a481c54eb228b9fc17/embed"></iframe>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="resp-container">
+                                <iframe class="resp-iframe"
+                                        src="https://sketchfab.com/models/ec043968f3974156bf49a424218059d1/embed"></iframe>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="resp-container">
+                                <iframe class="resp-iframe"
+                                        src="https://sketchfab.com/models/c41649f1492b4ced8158c7ffac1962cb/embed"></iframe>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="resp-container">
+                                <iframe class="resp-iframe"
+                                        src="https://sketchfab.com/models/f49e5d16295c4013b14f8a6db5f7836a/embed"></iframe>
+                            </div>
+                        </li>
+                        <li>
+                            <video controls>
+                                <source src="vidz/1.mp4" type="video/mp4" preload="metadata">
+                            </video>
+                        </li>
+                        <li>
+                            <video controls>
+                                <source src="vidz/2.mp4" type="video/mp4" preload="metadata">
+                            </video>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column" id="menu1">
+                <h3>Infinity Brawler</h3>
+                <h4>A prototype streak based melee combat game.</h4>
+                <h5>Animations | Models | Gameplay Systems</h5>
+                <br>
+                <ul>
+                    <li class="clickable current" id="1">Combat backflip</li>
+                    <li class="clickable" id="2">Combat roll</li>
+                    <li class="clickable" id="3">Combat Stance</li>
+                    <li class="clickable" id="4">Run</li>
+                    <li class="clickable" id="5">Jump</li>
+                    <li class="clickable" id="6">Punch</li>
+                    <li class="clickable" id="7">Gameplay #1</li>
+                    <li class="clickable" id="8">Gameplay #2</li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="wrapper fade">
+    <div class="area" style="background-color: white; color: black">
+        <div class="row">
+            <div class="column" style="text-align: left" id="menu2">
+                <h3>Facility 17</h3>
+                <h4>A scrapped third person horror game project.</h4>
+                <h5>Animations | Gameplay Systems | Character Art</h5>
+                <br>
+                <ul>
+                    <li class="clickable2 current" id="1">Walk Cycle Blending, Aiming</li>
+                    <li class="clickable2" id="2">Run Cycle</li>
+                    <li class="clickable2" id="3">Firing</li>
+                    <li class="clickable2" id="4">Inventory System</li>
+                    <li class="clickable2" id="5">Walk Cycle</li>
+
+
+                </ul>
+            </div>
+            <div class="column">
+                <div class="container left" style="margin: 0 auto">
+                    <ul id="slider2">
+                        <li>
+                            <div>
+
+                                <video controls width="500px" preload="metadata">
+                                    <source src="vidz/3.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <video controls width="500px" preload="metadata">
+                                    <source src="vidz/4.mp4" type="video/mp4">
+                                </video>
+                            </div>
+
+                        </li>
+                        <li>
+                            <div>
+                                <video controls  width="500px" preload="metadata">
+                                    <source src="vidz/5.mp4" type="video/mp4">
+                                </video>
+                            </div>
+
+                        </li>
+                        <li>
+                            <div>
+                                <video controls  width="500px" preload="metadata">
+                                    <source src="vidz/6.mp4" type="video/mp4">
+                                </video>
+                            </div>
+
+                        </li>
+                        <li>
+                            <div>
+                                <video controls  width="500px" preload="metadata">
+                                    <source src="vidz/7.mp4" type="video/mp4">
+                                </video>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="wrapper fade">
+    <div class="area" style="height:350px">
+        <div class="row">
+
+            <div class="column" style="height: 500px !important;">
+                <div class="container left" style="margin: 0 auto; height: 500px !important;">
+                    <ul id="slider3">
+                        <li>
+                            <div>
+                                <video controls width="500px" preload="metadata">
+                                    <source src="vidz/v1.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <video controls width="500px" preload="metadata">
+                                    <source src="vidz/v2.mp4" type="video/mp4">
+                                </video>
+                            </div>
+
+                        </li>
+                        <li>
+                            <div>
+                                <video controls width="500px" preload="metadata">
+                                    <source src="vidz/v3.mp4" type="video/mp4">
+                                </video>
+                            </div>
+
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="column" id="menu3">
+                <h3>VaporDrive</h3>
+                <h4>A published aesthetic iOS endless runner game.</h4>
+                <h5>Gameplay Systems | Level Design | Models</h5>
+                <br>
+                <ul>
+                    <li class="clickable3 current" id="1">Gameplay #1</li>
+                    <li class="clickable3" id="2">Gameplay #2</li>
+                    <li class="clickable3" id="3">Gameplay #3</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="wrapper fade">
+    <div class="area" style="background-color: white; color: black">
+        <div class="row">
+            <div class="column" style="text-align: left" id="menu4">
+                <h3>World 01</h3>
+                <h4>An in development first person horror game</h4>
+                <h5>Animations | 3D Gameplay Systems | Character Art</h5>
+                <br>
+                <ul style="z-index: 10;">
+                    <li class="clickable4 current" id="1">Walk Cycle and Character Controller</li>
+                    <li class="clickable4" id="2">Power Console and Camera Controller</li>
+                    <li class="clickable4" id="3">Sit Down Animation</li>
+                    <li class="clickable4" id="4">Stand Animation and Console Detailing</li>
+                    <li class="clickable4" id="5">First person character animations</li>
+                </ul>
+            </div>
+            <div class="column">
+                <div class="container left" style="margin: 0 auto">
+                    <ul id="slider4">
+                        <li>
+                            <div>
+                                <video controls preload="metadata">
+                                    <source src="vidz/s1.mp4" type="video/mp4">
+                                </video>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <video controls preload="metadata">
+                                    <source src="vidz/s2.mp4" type="video/mp4">
+                                </video>
+                            </div>
+
+                        </li>
+                        <li>
+                            <div>
+                                <video controls preload="metadata">
+                                    <source src="vidz/s3.mp4" type="video/mp4">
+                                </video>
+                            </div>
+
+                        </li>
+                        <li>
+                            <div>
+                                <video controls preload="metadata">
+                                    <source src="vidz/s4.mp4" type="video/mp4">
+                                </video>
+                            </div>
+
+                        </li>
+                        <li>
+                            <div class="resp-container">
+                                <iframe class="resp-iframe"
+                                        src="https://sketchfab.com/models/3877a209819c4023abb69af72ce8dd3b/embed"></iframe>
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script>
+
+    $(document).ready(function () {
+        $('#menu4 li').on('click', function () {
+            $('li.current').removeClass('current');
+            $(this).addClass('current');
+        });
+        $('#menu3 li').on('click', function () {
+            $('li.current').removeClass('current');
+            $(this).addClass('current');
+        });
+        $('#menu2 li').on('click', function () {
+            $('li.current').removeClass('current');
+            $(this).addClass('current');
+        });
+        $('#menu1 li').on('click', function () {
+            $('li.current').removeClass('current');
+            $(this).addClass('current');
+        });
+
+        $(".clickable").click(function (e) {
+            $('#slider').anythingSlider(this.id);
+            e.preventDefault();
+        });
+        $(".clickable2").click(function (e) {
+            $('#slider2').anythingSlider(this.id);
+            e.preventDefault();
+        });
+        $(".clickable3").click(function (e) {
+            $('#slider3').anythingSlider(this.id);
+            e.preventDefault();
+        });
+        $(".clickable4").click(function (e) {
+            $('#slider4').anythingSlider(this.id);
+            e.preventDefault();
+        });
+        $('#menu li a').on('click', function () {
+            $('#menu li a.current').removeClass('current');
+            $(this).addClass('current');
+        });
+        var myEl = document.getElementById('dab');
+
+        myEl.addEventListener('click', function () {
+            alert('Hello world');
+        }, false);
+
+    });
+
+
+    $().ready(function () {
+
+
+        $('#clicker').click(function () {
+            $('input').each(function () {
+                if ($(this).attr('disabled')) {
+                    $(this).removeAttr('disabled');
+                } else {
+                    $(this).attr({
+                        'disabled': 'disabled'
+                    });
+                }
+            });
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        var mouseX, mouseY;
+        var ww = $(window).width();
+        var wh = $(window).height();
+        var traX, traY;
+        $(document).mousemove(function (e) {
+            mouseX = e.pageX;
+            mouseY = e.pageY;
+            traX = ((4 * mouseX) / 1170) + 40;
+            traY = ((4 * mouseY) / 1170) + 50;
+            $(".title").css({"background-position": traX + "%" + traY + "%"});
+        });
+    });
+</script>
+</body>
+</html>
